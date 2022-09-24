@@ -3,6 +3,8 @@ import './App.css';
 import { async } from 'q';
 import React from 'react';
 import { Link } from "react-router-dom"
+import Box from '@mui/material/Box'
+import { Container } from '@mui/system';
 
 
 
@@ -36,15 +38,23 @@ const getFisherman = async () => {
 };
 **/ 
   return (
-    <main>
+    <div>
+    <Container maxWidth='sm'>
+      <h1>Hello</h1>
       <h1>Waddup</h1>
-      <nav>
-        <Link to="/Fishermen">Check out the fishermen!</Link>
-        <Link to="/Lures">See what lures have been used!</Link>
-        <Link to="/Species">Check out the fishermen!</Link>
-        <Link to="/CaughtFish">Check out the fishermen!</Link>
-        <Link to="/WaterBodies">Check out the fishermen!</Link>
-      </nav>
-    </main>
+      <h2>E</h2>
+    </Container>
+    <div>
+      <Container>
+        <nav>
+          <Link to="/Fishermen">Check out the fishermen!</Link>
+          <Link to="/Lures">See what lures have been used!</Link>
+          <Link to="/Species">Check out the fishermen!</Link>
+          <Link to="/CaughtFish">Check out the fishermen!</Link>
+          <Link to="/WaterBodies">Check out the fishermen!</Link>
+        </nav>
+      </Container>
+    </div>
+    </div>
   );
 }

@@ -15,11 +15,11 @@ render(
 <BrowserRouter>
   <Routes>
     <Route path='/' element={<App />} />
-    <Route path='Fishermen' element={<Fishermen />} />
-    <Route path='Lures' element={<Lures />} />
-    <Route path='WaterBodies' element={<WaterBodies />} />
-    <Route path='Species' element={<Species />} />
-    <Route path='CaughtFish' element={<CaughtFish />} />
+      <Route path='Fishermen' element={<Fishermen />} />
+      <Route path='Lures' element={<Lures />} />
+      <Route path='WaterBodies' element={<WaterBodies />} />
+      <Route path='Species' element={<Species />} />
+      <Route path='CaughtFish' element={<CaughtFish />} />
   </Routes>
   <App />
 </BrowserRouter>,
